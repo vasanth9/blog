@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vasanth Blog</title>
+    <title>Vasanth's Blog</title>
     <!-- Nunito font begin -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <!-- Nunito font end -->
     <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./array_sorting.css">
 </head>
 <body>
     <header class="header flex-container space-between align-items-center">
@@ -20,9 +21,18 @@
         </label>
     </header>
     <content class="display-block ml-10p">
-        <h1>How to create a simple to-do application in Django</h1>
+        <h1>Sorting </h1>
         <p>Work in Progress......</p>
+        <h3>Bubble Sort</h3>
+        
+        <div class="bubble-sort sorting-container flex-container space-evenly align-items-end" id="bubble-sort" >
+
+
+        </div>
+        <button onclick="sortDivs()">Sort</button>
+        <button onclick="regenerateArray()">Generate Array</button>
     </content> 
     <script src="../script.js"></script>
+    <script src="./array_sorting.js"></script>
 </body>
 </html>
