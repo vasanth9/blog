@@ -1,0 +1,23 @@
+
+.sorting-container{
+border: 2px solid var(--font-color);
+height: 200px;
+width: 500px;
+}
+.array-element {
+    background-color: var(--font-color);
+    color: var(--bg-color);
+  
+}
+
+.array-element-sorted {
+    background-color: var(--sort-green);
+}
+
+.array-element-compare {
+   background-color: var(--compare-color);
+}
+
+.array-element-swap {
+    background-color: var(--swap-color);
+}

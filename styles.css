@@ -5,6 +5,9 @@
     --bg-color: #fff;
     --heading-color: #292922;
     --font-family: "Nunito", sans-serif;
+    --sort-green: #228B22;
+    --compare-color: #FFEA00;
+    --swap-color: #FF0000;
 }
 
 [data-theme="dark"] {
@@ -14,6 +17,9 @@
     --bg-color: #161625;
     --heading-color: #818cab;
     --font-family: "Nunito", sans-serif;
+    --sort-green: #7CFC00;
+    --compare-color: #EADDCA;
+    --swap-color: #FF5733; 
 }
 
 
@@ -51,6 +57,10 @@ body {
 
 .align-items-center {
     align-items: center;
+}
+
+.align-items-end {
+    align-items: end;
 }
 
 .mb-24{
