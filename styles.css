@@ -33,6 +33,10 @@ body {
     display: flex;
 }
 
+.display-block {
+    display: block;
+}
+
 .space-around {
     justify-content: space-around;
 }
@@ -41,8 +45,20 @@ body {
     justify-content: space-between;
 }
 
+.space-evenly{
+    justify-content: space-evenly;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.ml-10p {
+    margin-left: 10%;
 }
 /* END: Individual Classes */
 
@@ -110,6 +126,12 @@ input:checked + .slider:before {
 }
 
 /* END: toggle theme switch */
+
+.blog-title {
+    text-decoration: none;
+    color: var(--font-color);
+    max-width: 500px;
+}
 
 /* START: mobile screen media queries*/
 @media (max-width:767px) {
